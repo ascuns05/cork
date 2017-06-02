@@ -42,12 +42,12 @@
       <div class="headline_cycler_centralizer">
         <div class="col-lg-8 col-md-6 col-sm-6">
       <div id="contact">
-        <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="off">
+        <form name="contactform" id="contactform" autocomplete="off">
           <fieldset>
             <label for="name" accesskey="U"><span class="required">Ваше Имя</span></label>
-            <input name="name" type="text" id="name" title="Ваше Имя" />
-            <label for="email" accesskey="E"><span class="required">Email</span></label>
-            <input name="email" type="text" id="email" title="Email" />
+            <input required name="name" type="text" id="name" title="Ваше Имя" />
+            <label for="phone" accesskey="E"><span class="required">Телефон</span></label>
+            <input required name="phone" type="text" id="phone" title="Телефон" />
             <label for="comments" accesskey="C"><span class="required">Скажи нам что ты думаешь!</span></label>
             <textarea name="comments" id="comments" title="Скажи нам что ты думаешь!"></textarea>
             <input type="submit" class="submit" id="submit" value="Отправить" />
@@ -431,14 +431,14 @@
   <div class="container clearfix">
     <div class="col-lg-8 col-md-6 col-sm-6">
       <div id="contact">
-        <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="off">
+        <form method="post" action="" name="contactform" id="contactform" autocomplete="off">
           <fieldset>
             <label for="name" accesskey="U"><span class="required">Ваше Имя</span></label>
-            <input name="name" type="text" id="name" title="Ваше Имя" />
-            <label for="email" accesskey="E"><span class="required">Email</span></label>
-            <input name="email" type="text" id="email" title="Email" />
+            <input required name="name" type="text" id="name" title="Ваше Имя" />
+            <label for="phone" accesskey="E"><span class="required">Телефон</span></label>
+            <input required name="phone" type="text" id="phone" title="Телефон" />
             <label for="comments" accesskey="C"><span class="required">Скажи нам что ты думаешь!</span></label>
-            <textarea name="comments" class="commentsother" id="comments" title="Скажи нам что ты думаешь!"></textarea>
+            <textarea class="commentsother" name="comments" id="comments" title="Скажи нам что ты думаешь!"></textarea>
             <input type="submit" class="submit" id="submit" value="Отправить" />
             <span id="message"></span>
           </fieldset>
